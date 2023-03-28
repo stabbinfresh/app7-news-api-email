@@ -2,8 +2,7 @@ import os
 import smtplib
 import ssl
 
-# this doesn't work, need to put working email and password info in
-EMAIL = "FAKE@GMAIL.COM"
+EMAIL = "apptestemail31@gmail.com"
 
 
 def send_email(message):
