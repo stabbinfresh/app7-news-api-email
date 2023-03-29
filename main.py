@@ -2,6 +2,9 @@ import requests
 from send_email import send_email
 
 api_key = "ac8bcd9c0c454bc886e75a9c172fa9a4"
+
+# put the date back a few weeks before
+# the current date for this url to work
 url = "https://newsapi.org/v2/everything?q=tesla&" \
       "from=2023-03-10&sortBy=publishedAt&apiKey=" \
       "ac8bcd9c0c454bc886e75a9c172fa9a4"
